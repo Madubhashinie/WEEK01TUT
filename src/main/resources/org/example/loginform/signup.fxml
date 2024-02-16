@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="784.0" style="-fx-background-color: #F0FFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="728.0" prefWidth="784.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="741.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="784.0">
+               <fill>
+                  <LinearGradient endX="0.5194174757281553" endY="0.17961165048543692" startX="0.009708737864077735" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#ffffff57" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Text layoutX="50.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <TextField layoutX="142.0" layoutY="31.0" prefHeight="31.0" prefWidth="394.0" />
+            <DatePicker layoutX="365.0" layoutY="143.0" />
+            <TextField layoutX="142.0" layoutY="82.0" prefHeight="31.0" prefWidth="394.0">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></TextField>
+            <TextField layoutX="146.0" layoutY="143.0" prefHeight="31.0" prefWidth="54.0" />
+            <Text layoutX="52.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:">
+            <font>
+               <Font name="Arial" size="15.0" />
+            </font></Text>
+            <Text layoutX="90.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:">
+            <font>
+               <Font name="Arial" size="15.0" />
+            </font></Text>
+            <Text layoutX="287.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthday:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+
+            <Text layoutX="74.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <CheckBox layoutX="143.0" layoutY="199.0" mnemonicParsing="false" text="Male" />
+            <CheckBox layoutX="230.0" layoutY="199.0" mnemonicParsing="false" text="Female" />
+            <CheckBox layoutX="521.0" layoutY="199.0" mnemonicParsing="false" text="I prefer not to say" />
+            <CheckBox layoutX="362.0" layoutY="199.0" mnemonicParsing="false" text="Non-binary" />
+            <MenuButton ellipsisString="married" layoutX="163.0" layoutY="254.0" mnemonicParsing="false" text="Status">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Married" />
+                <MenuItem mnemonicParsing="false" text="Single" />
+                 <MenuItem mnemonicParsing="false" text="Widowed" />
+                 <MenuItem mnemonicParsing="false" text="Divorced" />
+              </items>
+            </MenuButton>
+            <Text layoutX="57.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Civil Status:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <Text layoutX="67.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <TextField layoutX="158.0" layoutY="308.0" />
+            <Text layoutX="80.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <TextField layoutX="133.0" layoutY="359.0" prefHeight="31.0" prefWidth="544.0" />
+            <Text layoutX="75.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <Button layoutX="483.0" layoutY="640.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="76.0" text="Clear">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <TextField layoutX="144.0" layoutY="419.0" prefHeight="31.0" prefWidth="249.0" />
+            <Text layoutX="65.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <Text layoutX="66.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <Text layoutX="27.0" layoutY="611.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Text>
+            <TextField layoutX="145.0" layoutY="475.0" prefHeight="31.0" prefWidth="284.0" />
+            <TextField layoutX="164.0" layoutY="537.0" prefHeight="31.0" prefWidth="284.0" />
+            <TextField layoutX="174.0" layoutY="590.0" prefHeight="31.0" prefWidth="284.0" />
+            <Button layoutX="583.0" layoutY="640.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Submit">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <effect>
+            <InnerShadow color="#12496b" height="20.0" radius="5.0" width="2.0" />
+         </effect>
+      </AnchorPane>
+   </children>
+</VBox>
